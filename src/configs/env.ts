@@ -1,1 +1,1 @@
-export const ENDPOINT_SERVICE = process.env.NEXT_PUBLIC_ENDPOINT_SERVICE;
+export const ENDPOINT_SERVICE = 'https://pokeapi.co/api/v2/pokemon'
