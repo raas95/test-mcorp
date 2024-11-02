@@ -1,0 +1,1 @@
+export const ENDPOINT_SERVICE = process.env.NEXT_PUBLIC_ENDPOINT_SERVICE;
