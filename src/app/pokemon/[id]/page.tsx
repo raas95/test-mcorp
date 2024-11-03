@@ -45,7 +45,7 @@ const PokemonDetailPage = () => {
                     </div>
                 </div>
                 <div className="text-center md:text-left">
-                    <h1 className="text-4xl font-bold capitalize">{pokemon.name}</h1>
+                    <h1 className="text-4xl font-bold capitalize text-white">{pokemon.name}</h1>
                     <p className="text-lg text-gray-600">#{padNumber(pokemon.id, 3)}</p>
                     <div className="flex gap-2 mt-2">
                         {pokemon.types.map((type: any) => (
