@@ -60,15 +60,15 @@ const PokemonDetailPage = () => {
                     </div>
                 </div>
                 <div className="flex flex-col items-center md:items-start bg-[#1C2331] p-6 rounded-lg shadow-lg space-y-2">
-                    <h2 className="text-2xl font-semibold mb-2">Informasi Pokémon</h2>
+                    <h2 className="text-2xl font-semibold mb-2 text-white">Informasi Pokémon</h2>
                     <div className="flex flex-col gap-1 text-center md:text-left">
                         <div className="flex items-center justify-between">
                             <span className="font-bold text-gray-400">Tinggi:</span>
-                            <span>{pokemon.height} m</span>
+                            <span className="text-white">{pokemon.height} m</span>
                         </div>
                         <div className="flex items-center justify-between">
                             <span className="font-bold text-gray-400">Berat:</span>
-                            <span>{pokemon.weight} kg</span>
+                            <span className="text-white">{pokemon.weight} kg</span>
                         </div>
                         <div className="flex items-center justify-between">
                             <span className="font-bold text-gray-400">Kemampuan:</span>
@@ -90,7 +90,7 @@ const PokemonDetailPage = () => {
 
             {/* Moves Section */}
             <div className="mb-8">
-                <h2 className="text-2xl font-semibold mb-4">Moves</h2>
+                <h2 className="text-2xl font-semibold mb-4 text-white">Moves</h2>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
                     {pokemon.moves.slice(0, 20).map((move: any) => (
                         <span key={move.move.name} className="capitalize bg-gray-100 p-2 rounded text-center text-black">

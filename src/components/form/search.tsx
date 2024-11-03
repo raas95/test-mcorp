@@ -133,16 +133,16 @@ const SearchComponent = () => {
                 <div className="md:w-fit w-full flex">
                     <button
                         onClick={handleSearch}
-                        className="md:w-[60%]  w-[90%] ml-2 px-4 py-2 bg-yellow-500 text-white font-semibold rounded-lg hover:bg-yellow-600 focus:outline-none"
+                        className="md:w-[60%]  w-[85%] md:ml-2 px-4 py-2 bg-yellow-500 text-white font-semibold rounded-lg hover:bg-yellow-600 focus:outline-none"
                     >
                         Search
                     </button>
                     {/* Sort Button */}
                     <button
                         onClick={toggleSortOrder}
-                        className="md:w-[40%] w-[10%] ml-2 px-4 py-2 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-600 focus:outline-none flex items-center"
+                        className="md:w-[40%] w-[15%] ml-2 px-4 py-2 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-600 focus:outline-none flex items-center"
                     >
-                        {sortAsc ? <FaSortAlphaDown size={25} /> : <FaSortAlphaUp size={25} />} {/* Toggle icon */}
+                        {sortAsc ? <FaSortAlphaDown className="md:text-[25px] text-[20px]" /> : <FaSortAlphaUp className="text-[25px] text-[20px]" />} {/* Toggle icon */}
                     </button>
                 </div>
             </div>
