@@ -2,7 +2,7 @@ import React from "react";
 
 const SkeletonCard = () => {
     return (
-        <div className="p-4 bg-gray-700 text-white rounded-lg shadow-lg w-64 animate-pulse">
+        <div className="p-4 bg-gray-700 text-white rounded-lg shadow-lg w-full animate-pulse">
             <div className="flex flex-col items-center">
                 {/* Image Skeleton */}
                 <div className="w-32 h-32 bg-gray-600 rounded-full mb-4"></div>

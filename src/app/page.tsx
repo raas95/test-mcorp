@@ -15,7 +15,7 @@ export default function Home() {
   }
 
   return (
-    <div>
+    <div className="bg-black">
       <Header />
       <Search />
 
