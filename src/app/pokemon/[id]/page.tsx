@@ -27,7 +27,7 @@ const PokemonDetailPage = () => {
     }
 
     return (
-        <div className="bg-dark container mx-auto p-4 max-w-5xl">
+        <div className="bg-black container mx-auto p-4 max-w-5xl">
             {/* Back Button */}
             <BackButton />
 
